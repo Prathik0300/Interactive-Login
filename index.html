@@ -1,0 +1,39 @@
+<!DOCTYPE HTML5>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="jquery-3.5.0.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="script.js"></script>
+        <meta charset="utf-8">
+        <title>Interactive Login Page</title>
+    </head>
+    
+    <body class="flex flex-body min-vh-100">
+        <div class="container">
+            <div class="login-panel">
+               <div class="animation mb-5">
+                   <span>
+                        <img style="display:" id="open" src="open%20eyes.gif" alt="opened eyes">
+                        <img style="display: none;" id="close" src="close%20eyes.gif" alt="closed eyes">
+                   </span>
+               </div>
+                
+               <div class="form mt-2">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="username" onclick="openEye()" required autofocus>
+                    </div> 
+                   <div class="form-group">
+                        <input type="password" class="form-control" placeholder="password" onclick="closeEye()" required autofocus>
+                    </div> 
+                   <div class="form-group">
+                       <button class="btn btn-primary form-control" type="submit">SUBMIT</button>
+                    </div> 
+               </div>    
+                
+            </div>
+        </div>
+        
+    </body>
+</html>

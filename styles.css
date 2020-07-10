@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/pngtree-element-background-of-cartoon-sika-deer-png-image_3662281.jpg);
+    background-size: 40px;
+    background-repeat: repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-panel{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    border-radius: 2rem;
+    background-color: wheat;
+}
+
+.animation{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.animation img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input{
+    border-radius: 2rem;
+}
+
+.form button{
+    border-radius: 2rem;
+}
+
